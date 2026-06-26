@@ -1,33 +1,50 @@
-# Windows-AI-Agent
+# Windows AI 代理 (Windows-AI-Agent)
+
+這是我在空閒時間做的一個開源 AI 系統工具，主要是寫來好玩的。
 This is an open-source AI system project I put together just for fun in my spare time.
-系統需求與準備工作 / Prerequisites
 
-您至少需要一個 Windows 系統。
-You need at least a Windows operating system.
+---
 
-使用方式請先啟用您的 Ollama，並確保它的端口（Port）是預設的 11434。
-To use this, please start Ollama first and ensure it is running on the default port 11434.
+## ⚡ 核心功能 / Features
+* **直擊底層系統操作**：它可以操控您的電腦系統與網路。例如：更改系統設定、開啟指定網頁，或是利用瀏覽器查詢資料。
+  It can control your computer at the system level—such as configuring settings, launching applications, or performing browser searches.
+* **100% 隱私安全**：純本地運行，絕對不會進行任何數據統計或隱私分析。
+  Runs 100% locally with absolute zero tracking or data analytics.
 
-若要確認是否成功啟動，可以在瀏覽器中輸入 http://127.0.0.1:11434。若網頁顯示 "Ollama is running"，代表沒問題。
-To verify, open http://127.0.0.1:11434 in your browser. If it displays "Ollama is running", you are good to go.
+---
 
-📦 軟體規格與下載 / Specifications & Download
+## 📦 軟體規格 / Specifications
+* **微型體積**：軟體大小約為 11 MB。 (Size: ~11 MB)
+* **極低內存**：背景記憶體（RAM）佔用率僅約 25 到 30 MB。 (RAM: ~25-30 MB)
+* **雙語內建**：壓縮包（ZIP）內已同時打包「中文版」與「國際英文版」。 (Both Chinese and English versions are included in the ZIP).
 
-本軟體大小約為 11 MB，背景記憶體（RAM）佔用率約為 25 至 30 MB。
-The software size is approximately 11 MB, and the background memory (RAM) usage is around 25 to 30 MB.
+---
 
-內含國際版（英文介面）以及中文版，我都有放在同一個 ZIP 壓縮檔裡。
-Both the International (English) and Chinese versions are included; I have packaged them together in the same ZIP file.
+## 🚀 使用步驟 / How to Use
 
-⚙️ 功能與隱私聲明 / Capabilities & Models
+1. **環境需求 / Prerequisites**
+   您至少需要一個 Windows 系統，並且安裝並啟用 Ollama ( https://ollama.com/ )。
+   You need at least a Windows OS and have Ollama installed and running.
 
-本 AI 代理（Agent）只會執行系統層面的操作。你可以叫它更改設定、開啟網頁，甚至是利用瀏覽器查詢（但絕對不會統計或分析您的資料）。
-This AI Agent only executes tasks at the system level. You can ask it to adjust settings, open applications, or perform browser searches for you (with zero data tracking or analytics).
+2. **確認啟動 / Verify Connection**
+   請確保 Ollama 使用預設的 11434 端口。您可以在瀏覽器中輸入：`http://127.0.0.1:11434`
+   Ensure Ollama runs on port 11434. Open this link in your browser: `http://127.0.0.1:11434`
 
-實際操作與執行效果，請參照您自己下載的 AI 模型，我個人強力推薦 Gemma 4。
-The actual performance and behavior depend on the AI model you choose to download. I personally highly recommend Gemma 4.
+3. **檢查畫面 / Status Check**
+   如果網頁顯示 **"Ollama is running"**，代表沒問題。
+   If the page displays **"Ollama is running"**, you are good to go.
 
-📬 聯絡與支援 / Contact & Support
+4. **解壓執行 / Run**
+   下載並解壓縮 ZIP 檔案，請以**管理員權限**執行。
+   Unzip the file and run the executable as Administrator.
 
-如果您還有其他問題，請諮詢 lions0814@smail.ilc.edu.tw 這個信箱（來信時請記得表明找我的目的）。
-If you have any further questions, please contact via email: lions0814@smail.ilc.edu.tw (Please remember to state your purpose when reaching out).
+5. **推薦模型 / Recommended Model**
+   實際執行效果取決於您下載的模型，我個人強力推薦 **Gemma 4**。
+   Performance depends on your local model. Personally highly recommend **Gemma 4**.
+
+---
+
+## 📬 聯絡與支援 / Contact
+
+如果您還有其他問題，請諮詢 `lions0814@smail.ilc.edu.tw` 這個信箱（來信時請記得表明找我的目的）。
+If you have any questions, please contact via email: `lions0814@smail.ilc.edu.tw` (Please state your purpose when reaching out).
