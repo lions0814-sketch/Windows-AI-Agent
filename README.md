@@ -5,7 +5,7 @@ This is an open-source AI system project I put together just for fun in my spare
 
 ---
 
-## ⚡ 核心功能 / Features
+## 核心功能 / Features
 * **直擊底層系統操作**：它可以操控您的電腦系統與網路。例如：更改系統設定、開啟指定網頁，或是利用瀏覽器查詢資料。
   It can control your computer at the system level—such as configuring settings, launching applications, or performing browser searches.
 * **100% 隱私安全**：純本地運行，絕對不會進行任何數據統計或隱私分析。
@@ -13,14 +13,14 @@ This is an open-source AI system project I put together just for fun in my spare
 
 ---
 
-## 📦 軟體規格 / Specifications
+##  軟體規格 / Specifications
 * **微型體積**：軟體大小約為 11 MB。 (Size: ~11 MB)
 * **極低內存**：背景記憶體（RAM）佔用率僅約 25 到 30 MB。 (RAM: ~25-30 MB)
 * **雙語內建**：壓縮包（ZIP）內已同時打包「中文版」與「國際英文版」。 (Both Chinese and English versions are included in the ZIP).
 
 ---
 
-## 🚀 使用步驟 / How to Use
+##  使用步驟 / How to Use
 
 1. **環境需求 / Prerequisites**
    您至少需要一個 Windows 系統，並且安裝並啟用 Ollama ( https://ollama.com/ )。
@@ -44,7 +44,7 @@ This is an open-source AI system project I put together just for fun in my spare
 
 ---
 
-## 📬 聯絡與支援 / Contact
+##  聯絡與支援 / Contact
 
 如果您還有其他問題，請諮詢 `lions0814@smail.ilc.edu.tw` 這個信箱（來信時請記得表明找我的目的）。
 If you have any questions, please contact via email: `lions0814@smail.ilc.edu.tw` (Please state your purpose when reaching out).
